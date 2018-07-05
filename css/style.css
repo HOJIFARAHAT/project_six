@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;}
+
+body{font-family: 'Roboto', sans-serif;color: #737373;}
+
+img{max-width: 100%;
+display: block;}
+
+.header{
+    overflow:  hidden;
+    padding: 25px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container .border{}
+.logo{
+    width: 25%;
+    float: left;
+}
+.logo img{}
+.social{
+    width: 75%;
+    float: left;
+}
+.social ul{text-align:  right;}
+.social ul li {
+    display:  inline-block;
+    list-style:  none;
+}
+.social ul li a {
+    list-style:  none;
+}
+
+.social ul li:first-child a {
+    position: relative;
+    display: block;
+}
+
+.social ul li:first-child a img:last-child {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+}
+.menu{
+    overflow:  hidden;
+    padding: 30px;
+}
+.container{}
+.nav ul{
+    text-align: left;
+}
+.nav ul li{
+    list-style:  none;
+    display:  inline-block;
+}
+.nav ul a{
+    text-decoration:  none;
+    color: #737373;
+    text-transform:  uppercase;
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+.banner{position:  relative;}
+
+
+
+.banner img.monitor{
+	
+position:  absolute;
+	
+bottom: -60px;
+	
+left: 50%;
+	
+transform: translateX(-50%);
+}
+
+.below{overflow: hidden;margin-top: 100px;
+	
+}
+.about-us{
+    margin-top:  100px;
+    text-align:  center;
+    margin-bottom: 50px;
+}
+.about-us p{}
+.about-us a{
+    background: #4CAF50;
+    color: white;
+    text-decoration:  none;
+    text-transform:  uppercase;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top:  20px;
+}
+
+.get-to-know{
+    background: #e5e5e5;
+    padding: 50px 0;
+    overflow: hidden;
+
+}
+.get-to-know-img{
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
+.get-to-know-img img{width: 100%;
+}
+article{
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
+article h1{
+    font-size: 35px;
+}
+article p{
+    font-size:  22px;
+}
+
+.sign-up{
+    background: #2c2727;
+    padding: 30px;
+    overflow:  hidden;
+}
+.blown{
+    width: 70%;
+    float: left;
+}
+.blown p{
+    color: white;
+    text-transform:  uppercase;
+    font-weight:  bold;
+    font-size: 25px;
+}
+.form{
+    width: 30%;
+    float: left;
+}
+.form a{
+    background: #4CAF50;
+    font-size: 25px;
+    text-transform:  uppercase;
+    padding: 10px;
+    display:  inline-block;
+    text-decoration:  none;
+    color:  white;
+    font-weight:  bold;
+}
+
+.footer{
+    overflow:  hidden;
+    padding: 20px;
+}
+.copyright{
+    width: 40%;
+    float: left;
+    color: #737373;
+    text-transform:  uppercase;
+}
+.copyright p{}
+.list{
+    width: 60%;
+    float: left;
+}
+.list ul{
+    text-align:  right;
+}
+.list ul li{
+    display:  inline-block;
+    list-style:  none;
+}
+.list ul li a {
+    text-decoration:  none;
+    font-size: 20px;
+    text-transform:  uppercase;
+    color: #737373;
+    margin-left: 10px;
+}
